@@ -1,0 +1,149 @@
+.red {
+    background-color: #b92025;
+  }
+  
+  .hero-video {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+  }
+  
+  .hero-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .navbar {
+    background-color: #b92025;
+    padding: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .nav-link {
+    color: white;
+    margin: 25px;
+  }
+  
+  .nav-link a {
+    font-weight: bold;
+  }
+  
+  body h2 p {
+    font-family: Inter;
+    font-size: 25px;
+    padding-left: 200px;
+  }
+  
+  .multiline-p {
+    line-height: 1.5;
+  }
+  
+  .container.mt-4 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #222c6a;
+    font-weight: bold;
+  }
+  
+  .container.tentang.produk h2 {
+    font-size: larger;
+  }
+  
+  .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .text-link {
+    font-size: 24px;
+    text-decoration: none;
+    color: gray;
+  }
+  
+  a.text-link {
+    font-weight: bold;
+  }
+  
+  .text-link:link {
+    color: black;
+    opacity: 0.25;
+  }
+  
+  .container.tentang p {
+    color: #dfc793;
+    font-size: 24px;
+  }
+  
+  .container.produk p {
+    font-size: 24px;
+  }
+  
+  .about {
+    background-color: #b92025;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  
+  .about h2 {
+    color: white;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #f7b432;
+    border-color: #f7b432;
+  }
+  
+  .btn {
+    border-radius: 5px;
+  }
+  
+  .card {
+    margin-top: 10px;
+    border: none;
+  }
+ 
+
+  .contact-heading {
+    margin-top: 100px;
+  }
+  
+  
+  .contact-subheading {
+    margin-top: 100px;
+  }
+
